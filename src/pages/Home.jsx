@@ -49,10 +49,10 @@ const Home = () => {
       <section className="relative h-[70vh] bg-bn-light-gray overflow-hidden">
         {/* Background Image */}
         <img
-          src="cover2.jpg"
-          alt="BiancoNero Collection"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+  src={`${import.meta.env.BASE_URL}cover2.jpg`}
+  alt="BiancoNero Collection"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
 
         {/* Content - Left Aligned */}
         <div className="relative z-10 h-full max-w-7xl mx-auto px-6 md:px-12 flex items-center">

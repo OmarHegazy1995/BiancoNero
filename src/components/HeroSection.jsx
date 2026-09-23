@@ -6,10 +6,10 @@ const HeroSection = () => {
       
       {/* Background Image */}
       <img
-        src="hero-image.jpg"
-        alt="BiancoNero Collection"
-        className="absolute inset-0 w-full h-full object-cover opacity-70"
-      />
+  src={`${import.meta.env.BASE_URL}hero-image.jpg`}
+  alt="BiancoNero Collection"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-bn-black/80 via-bn-black/70 to-transparent"></div>
